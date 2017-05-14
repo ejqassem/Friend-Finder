@@ -20,8 +20,21 @@
   <div class = "container-fluid">
     <h1> Survey Page</h1>
 
-    <form>
+
+    <div class="form-group">
+      <h2> About You </h2>
+      <label for="username"> Name: (Required)</label>
+      <input type="text" class="form-control" id="username" placeholder="John Smith">
+    </div>
+
+    <div class="form-group">
+      <h2> About You </h2>
+      <label for="photo-link"> Link to Photo Image: (Required)</label>
+      <input type="url" class="form-control" id="photo-link" placeholder="http://www.photobucket.com/image+of+you">
+    </div>
+
       <div class="form-group">
+        <h3> Question 1: </h3>
         <label class="control-label"> 1) I have a rich vocabulary: </label>
           <select class="questions form-control">
             <option value="1">1 (Strongly Disagree)</option>
@@ -30,6 +43,7 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
+        <h3> Question 2: </h3>
         <label class="control-label"> 2) I trust what people say: </label>
           <select class="questions form-control">
             <option value="1">1 (Strongly Disagree)</option>
@@ -38,6 +52,7 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
+        <h3> Question 3: </h3>
         <label class="control-label"> 3) My favorite Basketball Player is Lebron James </label>
           <select class="questions form-control">
             <option value="1">1 (Strongly Disagree)</option>
@@ -46,6 +61,7 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
+        <h3> Question 4: </h3>
         <label class="control-label"> 4) I take charge: </label>
           <select class="questions form-control">
             <option value="1">1 (Strongly Disagree)</option>
@@ -54,6 +70,7 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
+        <h3> Question 5: </h3>
         <label class="control-label"> 5) I am always busy: </label>
           <select class="questions form-control">
             <option value="1">1 (Strongly Disagree)</option>
@@ -63,7 +80,6 @@
             <option value="5">5 (Strongly Agree)</option>
           </select>
         </div>
-      </form>
       <button type="submit" id="submit-form" class="btn btn-primay">Submit</button>
 
 

@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-// set the static file location
+// set the static file location for CSS stylesheet and custom javascript file
 app.use("/assets", express.static(__dirname + "/app/public/assets"));
 
 //Importing apiRoutes and htmlRoutes and running them immediately by passing the returned objects

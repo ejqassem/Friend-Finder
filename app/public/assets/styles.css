@@ -4,5 +4,14 @@ h1 {
 }
 
 .form-control {
-  width: 40%; 
+  width: 40%;
+}
+
+.questions {
+  width: 15%;
+}
+
+label {
+  font-size: 1.2em;
+  font-weight: normal;
 }
