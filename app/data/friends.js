@@ -1,0 +1,64 @@
+module.exports = [{
+  "name":"Grace",
+  "photo":"https://cdn.shutterstock.com/shutterstock/videos/11003123/thumb/1.jpg",
+  "scores":[
+      4,
+      5,
+      3,
+      5,
+      3,
+      4,
+      4,
+      5,
+      3,
+      4
+    ]
+},
+{
+  "name":"Audrey",
+  "photo":"https://image.shutterstock.com/z/stock-photo-successful-business-woman-looking-confident-and-smiling-104071613.jpg",
+  "scores":[
+      4,
+      3,
+      4,
+      4,
+      3,
+      1,
+      3,
+      2,
+      1,
+      3
+    ]
+},
+{
+  "name":"Owen",
+  "photo":"https://thumbs.dreamstime.com/z/man-pointing-18441896.jpg",
+  "scores":[
+      3,
+      2,
+      3,
+      4,
+      1,
+      4,
+      5,
+      5,
+      5,
+      4
+    ]
+},
+{
+  "name":"Finn",
+  "photo":"https://cdn.shutterstock.com/shutterstock/videos/8493949/thumb/1.jpg?i10c=img.resize",
+  "scores":[
+      1,
+      3,
+      2,
+      4,
+      3,
+      2,
+      1,
+      2,
+      2,
+      1
+    ]
+}]

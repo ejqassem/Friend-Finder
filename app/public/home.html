@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Home Page</title>
+  <link rel="stylesheet" type="text/css" href="assets/styles.css">
+</head>
+<body>
+  <h1> Home-page works </h1>
+</body>
+
+
+
+<!-- link to jQuery CDN -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script>
+  $.get("/api/friends", function(data) {
+    console.log(data); 
+  });
+
+</script>
+</html>
