@@ -2,23 +2,34 @@
 <html>
 <head>
   <title> Home Page</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- link to custom stylesheet-->
   <link rel="stylesheet" type="text/css" href="assets/styles.css">
+  <!-- link to jQuery CDN -->
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
-<body>
-  <h1> Home-page works </h1>
+<body id="home-page">
+  <div class="container">
+    <div class = "panel panel-default">
+      <div class="panel-body">
+        <h1 id="home-page-heading"><span class="glyphicon glyphicon-user"></span> Friend-Finder </h1>
+        <h2 id="home-page-subheading"> Answer a few questions and find the friend with the greatest compatibility </h2>
+        <a href="/survey"><button id="go-to-survey" type="button" class="btn btn-primary">Go to Survey</button></a>
+      </div>
+    </div>
+    <a href="/api/friends" class="links" id="friends-link"> API Friends List </a>
+    <a href="https://github.com/ejqassem/Friend-Finder" class="links" id="github-link">Github Repo </a>
+
+  </div>
 </body>
 
 
-
-<!-- link to jQuery CDN -->
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script>
-  $.get("/api/friends", function(data) {
-    console.log(data); 
-  });
-
-</script>
 </html>
