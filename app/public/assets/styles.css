@@ -91,10 +91,25 @@ label {
 }
 
 #about-you {
+  position: relative;
   border-bottom: 1px lightgray solid;
   padding-bottom: 1%;
 }
 
 #username {
   margin-bottom: 1%;
+}
+
+#fixName, #fixAll {
+  color: red;
+  position: absolute;
+  left: 42%;
+  bottom: 42%;
+}
+
+#fixUrl, #fixAll2 {
+  left: 42%;
+  bottom: 2%;
+  color: red;
+  position: absolute;
 }
