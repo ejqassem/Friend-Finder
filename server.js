@@ -7,7 +7,7 @@ var path = require('path');
 //Declare global variables and bodyparser methods to handle incoming data
 //=====================================
 var app = express();
-var PORT = process.env.PORT || 8080;
+var port = process.env.PORT || 8080;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -25,6 +25,6 @@ require('./app/routing/htmlRoutes.js')(app, path);
 
 //Initializes the server to listen to PORT
 //=====================================
-app.listen(PORT, function() {
-  console.log("You are now listening to " + PORT);
+app.listen(port, function() {
+  console.log("You are now listening to " + port);
 });
