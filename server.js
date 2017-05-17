@@ -7,7 +7,7 @@ var path = require('path');
 //Declare global variables and bodyparser methods to handle incoming data
 //=====================================
 var app = express();
-var PORT = 8080;
+var PORT = process.env.PORT || 8080;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
