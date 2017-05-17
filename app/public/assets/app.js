@@ -70,7 +70,6 @@ $("#submit-form").on("click", function(event) {
     newDiv2.attr("id", "fixAll2");
     newDiv2.html("<p> Please enter something in all fields!</p>");
     $("#photo-link-label").append(newDiv2);
-    alert("Please enter something in all fields!");
     return false;
   }
   else if (goodName === false) {
