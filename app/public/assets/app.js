@@ -26,7 +26,6 @@ $("#submit-form").on("click", function(event) {
       return false;
     }
     else if(expression.test(link)) {
-      alert("good url");
       goodUrl = true;
     }
   }
@@ -38,7 +37,6 @@ $("#submit-form").on("click", function(event) {
       return false;
     }
     else if (expression.test(id)) {
-      alert("good name");
       goodName = true;
     }
   }
