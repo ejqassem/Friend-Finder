@@ -16,7 +16,7 @@ label {
   font-weight: normal;
 }
 
-.panel-default:before {
+#home-page-panel:before {
   content: ' ';
   position: absolute;
   width: 0px;
@@ -27,7 +27,7 @@ label {
   border-color: #666 transparent transparent #666;
 }
 
-.panel-default {
+#home-page-panel, #panel-404 {
   margin-top: 5%;
   position: relative;
   width: 80%;
@@ -112,4 +112,14 @@ label {
   bottom: 2%;
   color: red;
   position: absolute;
+}
+
+#page-404 {
+  margin-bottom : 1%;
+  background-image: url("./images/404.not-found.jpg");
+  background-position: 130% 10%;
+}
+
+#panel-404 {
+  opacity: 0.85;
 }
